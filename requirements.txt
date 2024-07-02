@@ -1,0 +1,6 @@
+neo4j==5.22.0
+openai==1.35.7
+tiktoken==0.7.0
+pandas
+python-dotenv==1.0.1
+streamlit==1.36.0
