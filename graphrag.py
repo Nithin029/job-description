@@ -15,7 +15,7 @@ user=os.getenv("user")
 uri=os.getenv("uri")
 password=os.getenv("password")
 client = OpenAI(
-    base_url="https://api.together.xyz/v1", api_key="ed0ba89639272f15989221947a6ebc8c99e84fe72e1ee0d46f58598d30907efa"
+    base_url="https://api.together.xyz/v1", api_key=TOGETHER_API_KEY
 )
 MAX_TOKENS_PER_REQUEST = 512
 
